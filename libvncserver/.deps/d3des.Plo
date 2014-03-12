@@ -1,0 +1,3 @@
+d3des.lo: ../common/d3des.c ../common/d3des.h
+
+../common/d3des.h:
