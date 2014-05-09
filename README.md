@@ -1,11 +1,11 @@
 #Security Advancement for multi VNC Server usage
 
 This is a security advancement for [LibVNCServer](http://libvncserver.sourceforge.net/).
-Intersting changes are in `examples/storepasswd.c`, `rfb/rfbproto.h` and `common/vncauth.c`.
+Intersting changes are in [`storepasswd.c`](https://github.com/johannesboyne/libvncserver/blob/master/examples/storepasswd.c#L68), `rfb/rfbproto.h` and `common/vncauth.c`.
 
 ##Why a security advancement
 
-If you want to use LibVNCServer multiple times you should change the behaviour of the `storepasswd` program!
+If you want to use LibVNCServer multiple times you should change the behaviour of the `storepasswd` program and use custom salted passwords.
 
 ##How to build
 
